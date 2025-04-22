@@ -1,8 +1,11 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: ScalaMock Tutorial
+description: A comprehensive guide to using ScalaMock - a native Scala mocking framework
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://eclypsium-ef.github.io
+# If your repo is a project site (not username.github.io), use this format:
+# url: https://eclypsium-ef.github.io/Tutorial_ScalaMocks
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Repository: https://github.com/eclypsium-ef/Tutorial_ScalaMocks
+  ScalaMock Official Website: https://scalamock.org
