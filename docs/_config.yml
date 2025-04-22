@@ -3,9 +3,15 @@ description: A comprehensive guide to using ScalaMock - a native Scala mocking f
 theme: just-the-docs
 
 url: https://eclypsium-ef.github.io
-# If your repo is a project site (not username.github.io), use this format:
-# url: https://eclypsium-ef.github.io/Tutorial_ScalaMocks
+baseurl: "/Tutorial_ScalaMocks"
 
 aux_links:
   Repository: https://github.com/eclypsium-ef/Tutorial_ScalaMocks
   ScalaMock Official Website: https://scalamock.org
+
+# Enable search
+search_enabled: true
+
+# Optional settings
+heading_anchors: true
+color_scheme: light
