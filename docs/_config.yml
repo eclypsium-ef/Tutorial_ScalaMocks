@@ -20,3 +20,6 @@ color_scheme: light
 readme_index:
   enabled: false
   remove_originals: false
+
+mermaid:
+  enabled: true
