@@ -34,12 +34,20 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.3' # Not needed with a .ruby-version file
-          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-          cache-version: 0 # Increment this number if you need to re-download cached gems
-          working-directory: '${{ github.workspace }}/docs'  # Set working directory for Ruby setup
+          # bundler-cache, cache-version and working-directory removed
+      - name: Debug before bundle install
+        run: |
+          pwd
+          ls -la
+      - name: Install dependencies
+        run: bundle install # This will run in 'docs' due to job defaults
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+      - name: Debug before jekyll build
+        run: |
+          pwd
+          ls -la
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"

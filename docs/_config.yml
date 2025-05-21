@@ -3,7 +3,7 @@ description: A comprehensive guide to using ScalaMock - a native Scala mocking f
 theme: just-the-docs
 
 url: https://eclypsium-ef.github.io
-baseurl: "/Tutorial_ScalaMocks"
+baseurl: ""
 
 aux_links:
   Repository: https://github.com/eclypsium-ef/Tutorial_ScalaMocks
