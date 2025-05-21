@@ -35,10 +35,10 @@ jobs:
         with:
           ruby-version: '3.3' # Not needed with a .ruby-version file
           # bundler-cache, cache-version and working-directory removed
-      - name: Debug before bundle install
+        - name: Debug before bundle install
         run: |
-          pwd
-          ls -la
+        pwd
+        ls -la
       - name: Install dependencies
         run: bundle install # This will run in 'docs' due to job defaults
       - name: Setup Pages
